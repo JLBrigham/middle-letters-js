@@ -8,7 +8,11 @@ describe("middleLetter", function () {
     expect(middleLetter("A")).toEqual("A");
   });
 
-  it("returns thw whole word if word is 2 letters long", function () {
+  it("returns the whole word if word is 2 letters long", function () {
     expect(middleLetter("of")).toEqual("of");
+  });
+
+  it("returns the middle letter of a word if its length is odd", function () {
+    expect(middleLetter("testing")).toEqual("t");
   });
 });
