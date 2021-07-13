@@ -19,4 +19,8 @@ describe("middleLetter", function () {
   it("returns the middle 2 letters of a word if its length is even", function () {
     expect(middleLetter("test")).toEqual("es");
   });
+
+  it("returns the middle 2 letters of a longer length even word", function () {
+    expect(middleLetter("middle")).toEqual("dd");
+  });
 });
