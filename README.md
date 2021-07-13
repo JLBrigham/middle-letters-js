@@ -1,6 +1,6 @@
 ## Middle Letters
 
-This was an exercise to practive my TDD using Jasmine and Javascript
+This was an exercise to practice my TDD using Jasmine and Javascript
 
 ## Brief
 
