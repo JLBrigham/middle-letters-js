@@ -1,3 +1,3 @@
 function middleLetter(word) {
-  return "A";
+  return word;
 }
